@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+} from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+
+import Dashboard from './components/Dashboard/Dashboard';
+import { hot } from 'react-hot-loader';
+import { DetailsPage } from './components/Movie/Details/Details';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='App'>
+        <Switch>
+          <Route exact path='/details/:movieId' component={DetailsPage} />
+          <Route exact path='/' component={Dashboard} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;
+export default hot(module)(App);

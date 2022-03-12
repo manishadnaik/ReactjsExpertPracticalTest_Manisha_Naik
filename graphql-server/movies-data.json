@@ -1,0 +1,101 @@
+[
+    {
+      "Film": "Zack and Miri Make a Porno",
+      "Genre": "Romance",
+      "Lead Studio": "The Weinstein Company",
+      "Audience score %": 70,
+      "Profitability": 1.747541667,
+      "Rotten Tomatoes %": 64,
+      "Worldwide Gross": "$41.94 ",
+      "Year": 2008
+    },
+    {
+      "Film": "Youth in Revolt",
+      "Genre": "Comedy",
+      "Lead Studio": "The Weinstein Company",
+      "Audience score %": 52,
+      "Profitability": 1.09,
+      "Rotten Tomatoes %": 68,
+      "Worldwide Gross": "$19.62 ",
+      "Year": 2010
+    },
+    {
+      "Film": "You Will Meet a Tall Dark Stranger",
+      "Genre": "Comedy",
+      "Lead Studio": "Independent",
+      "Audience score %": 35,
+      "Profitability": 1.211818182,
+      "Rotten Tomatoes %": 43,
+      "Worldwide Gross": "$26.66 ",
+      "Year": 2010
+    },
+    {
+      "Film": "When in Rome",
+      "Genre": "Comedy",
+      "Lead Studio": "Disney",
+      "Audience score %": 44,
+      "Profitability": 0,
+      "Rotten Tomatoes %": 15,
+      "Worldwide Gross": "$43.04 ",
+      "Year": 2010
+    },
+    {
+      "Film": "What Happens in Vegas",
+      "Genre": "Comedy",
+      "Lead Studio": "Fox",
+      "Audience score %": 72,
+      "Profitability": 6.267647029,
+      "Rotten Tomatoes %": 28,
+      "Worldwide Gross": "$219.37 ",
+      "Year": 2008
+    },
+    {
+      "Film": "Water For Elephants",
+      "Genre": "Drama",
+      "Lead Studio": "20th Century Fox",
+      "Audience score %": 72,
+      "Profitability": 3.081421053,
+      "Rotten Tomatoes %": 60,
+      "Worldwide Gross": "$117.09 ",
+      "Year": 2011
+    },
+    {
+      "Film": "WALL-E",
+      "Genre": "Animation",
+      "Lead Studio": "Disney",
+      "Audience score %": 89,
+      "Profitability": 2.896019067,
+      "Rotten Tomatoes %": 96,
+      "Worldwide Gross": "$521.28 ",
+      "Year": 2008
+    },
+    {
+      "Film": "Waitress",
+      "Genre": "Romance",
+      "Lead Studio": "Independent",
+      "Audience score %": 67,
+      "Profitability": 11.0897415,
+      "Rotten Tomatoes %": 89,
+      "Worldwide Gross": "$22.18 ",
+      "Year": 2007
+    },
+    {
+      "Film": "Waiting For Forever",
+      "Genre": "Romance",
+      "Lead Studio": "Independent",
+      "Audience score %": 53,
+      "Profitability": 0.005,
+      "Rotten Tomatoes %": 6,
+      "Worldwide Gross": "$0.03 ",
+      "Year": 2011
+    },
+    {
+      "Film": "Valentine's Day",
+      "Genre": "Comedy",
+      "Lead Studio": "Warner Bros.",
+      "Audience score %": 54,
+      "Profitability": 4.184038462,
+      "Rotten Tomatoes %": 17,
+      "Worldwide Gross": "$217.57 ",
+      "Year": 2010
+    }]

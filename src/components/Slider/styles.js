@@ -1,0 +1,60 @@
+export const styles = {
+  slider: {
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    height: '100vh', // to be made to 100vh
+    width: '100%',
+  },
+  sliderContent: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    height: '100vh',
+  },
+  slider__btnLeft: {
+    background: 'transparent',
+    border: 'none',
+    outline: 'none',
+    fontSize: '4rem',
+    color: '#eee',
+    padding: '0 1rem',
+    cursor: 'pointer',
+    transition: 'transform 0.1s ease-in-out',
+  },
+  slider__btnRight: {
+    background: 'transparent',
+    border: 'none',
+    outline: 'none',
+    fontSize: '4rem',
+    color: '#eee',
+    padding: '0 1rem',
+    cursor: 'pointer',
+    transition: 'transform 0.1s ease-in-out',
+  },
+  sliderFeature: {
+    textAlign: 'center',
+  },
+  featureTitle: {
+    fontSize: '2.5rem',
+    color: '#fff',
+    textTransform: 'uppercase',
+    fontWeight: 700,
+  },
+  featureText: {
+    fontSize: '1rem',
+    color: '#fff',
+    margin: '1rem 0',
+  },
+  featureBtn: {
+    background: '#fff',
+    textTransform: 'uppercase',
+    // border: 'none',
+    color: '#444',
+    border: '1px solid #444',
+    outline: 'none',
+    fontWeight: '700',
+    padding: '0.8rem 2rem',
+    cursor: 'pointer',
+  },
+};
