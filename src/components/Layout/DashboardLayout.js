@@ -92,7 +92,6 @@ const Drawer = styled(MuiDrawer, {
 const mdTheme = createTheme();
 
 export default function DashboardLayout(props) {
-  const currentUser = getUserFromStorage();
   const [open, setOpen] = React.useState(true);
   const toggleDrawer = () => {
     setOpen(!open);
@@ -118,8 +117,7 @@ export default function DashboardLayout(props) {
                 ...(open && { display: 'none' }),
               }}
             >
-              [<MenuIcon />
-              ............]
+              <MenuIcon />
             </IconButton>
 
             <Typography

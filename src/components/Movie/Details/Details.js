@@ -61,7 +61,6 @@ const Details = (props) => {
     console.log(data.getMovieDetails);
   }
   //   props.storeMovie(data);
-  console.log('from redux====>', props.movie);
 
   return data ? <MovieDetails data={data} /> : <>Loading...</>;
 };
@@ -86,7 +85,6 @@ export const DetailsPage = connect(
 )(Details);
 
 export const MovieDetails = ({ data }) => {
-  //   console.log('Movie details:', data);
   const pictures = JSON.parse(data.getMovieDetails.pictures);
   const [open, setOpen] = useState(false);
   const [modalSource, setModalSource] = useState('');
