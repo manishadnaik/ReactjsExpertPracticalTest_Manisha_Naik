@@ -143,7 +143,7 @@ export default function DashboardLayout(props) {
               </span>
             </Typography>
             <SearchBoxWrapper />
-            <Filter />
+            {/* <Filter /> */}
           </Toolbar>
         </AppBar>
         {/* to render children here */}
